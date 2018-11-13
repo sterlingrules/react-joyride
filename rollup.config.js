@@ -5,8 +5,9 @@ import packageJSON from './package.json';
 export default {
   input: 'src/index.js',
   output: {
+    name: 'joyride',
     file: 'es/index.js',
-    format: 'es',
+    format: 'umd',
     exports: 'named',
   },
   external: [
